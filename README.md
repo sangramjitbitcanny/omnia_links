@@ -7,3 +7,7 @@ audio-check - https://jam.dev/c/5d9d62fd-453d-4126-8167-15ed536c559d
 <br>
 obs - screen_recording - fine :- https://drive.google.com/file/d/1y3rto1ONmKRXkltsUTzgA-WGq7uZv0z3/view?usp=sharing
 safari -> https://www.youtube.com/watch?v=pl2llo4eWYg  
+
+<br>
+
+sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate -configure -access -on -clientopts -setvnclegacy -vnclegacy yes -clientopts -setvncpw -vncpw password1 -restart -agent -privs -all
